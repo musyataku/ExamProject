@@ -18,5 +18,8 @@ public class Hero extends Character {
     public void setWeapon(String weapon) {
         this.weapon = weapon;
     }
+    /*public final boolean isAlive() {
+        return this.hp > 0;
+    }*/
 }
 

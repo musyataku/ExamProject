@@ -3,9 +3,14 @@ import java.util.ArrayList;
 public class GameMaster {
     public static void main(String[] args) {
 
+        //Character c = new Character("名無し", 50);
+        //Hero testHero = new Hero("テスト勇者", -10, "テスト剣");
+
         Hero hero = new Hero("勇者",100,"剣");
         Wizard wizard = new Wizard("魔法使い",60,20);
         Thief thief = new Thief("盗賊",70);
+        //hero.name = "ミナト";
+        //hero.hp = 200;
         ArrayList<Character> party = new ArrayList<Character>();
         party.add(0,hero);
         party.add(1,wizard);
